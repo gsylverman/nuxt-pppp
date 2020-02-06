@@ -7,7 +7,7 @@
       ></div>
       <div class="post-content">
         <h1>{{ title }}</h1>
-        <p>{{ previwText }}</p>
+        <p>{{ previewText }}</p>
       </div>
     </article>
   </nuxt-link>
@@ -18,9 +18,9 @@ export default {
   name: "PostPreview",
   props: {
     isAdmin:{type:Boolean,required:true},
-    id: { type: String, required: true },
+    id: { type: Number, required: true },
     title: { type: String, required: true },
-    previwText: { type: String, required: true },
+    previewText: { type: String, required: true },
     thumbnail: { type: String, required: true }
   },
   computed:{
