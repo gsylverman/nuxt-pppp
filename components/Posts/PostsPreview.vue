@@ -18,7 +18,7 @@ export default {
   name: "PostPreview",
   props: {
     isAdmin:{type:Boolean,required:true},
-    id: { type: Number, required: true },
+    id: { type: String, required: true },
     title: { type: String, required: true },
     previewText: { type: String, required: true },
     thumbnail: { type: String, required: true }
