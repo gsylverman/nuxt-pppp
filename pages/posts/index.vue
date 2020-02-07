@@ -3,9 +3,7 @@
     <section class="intro">
       <h1>get the latest teck news</h1>
       <PostList :posts="loadedPosts" />
-      
     </section>
-   
   </div>
 </template>
 
@@ -15,9 +13,10 @@ export default {
   components: {
     PostList
   },
-  computed:{
-    loadedPosts(){ return this.$store.getters.loadedPosts;}
+  computed: {
+    loadedPosts() {
+      return this.$store.getters.loadedPosts;
+    }
   }
- 
 };
 </script>
