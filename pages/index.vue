@@ -11,7 +11,7 @@ export default {
     PostList
   },
   asyncData(context, callback) {
-    context.redirect("/admin/1")
+    // context.redirect("/admin/1")
     setTimeout(()=>{
       callback(null, {
       loadedPosts: [
@@ -41,7 +41,7 @@ export default {
         }
       ]
     });
-    },3000);
+    },1000);
 
     
   }

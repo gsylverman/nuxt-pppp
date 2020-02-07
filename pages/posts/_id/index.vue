@@ -35,7 +35,7 @@ export default {
               "https://images.unsplash.com/photo-1508558936510-0af1e3cccbab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
           }
         });
-      }, 1000);
+      }, 0);
     })
       .then(data => {
         return data;
